@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.titolo, main{
+.titolo, main, footer{
     padding-left: 5px;
 }
 
@@ -40,7 +40,7 @@ header .titolo a {
     color: rgb(78,160,255);
 }
 
-header .titolo .crediti{
+header .titolo .crediti, footer .crediti{
     color: gray;
     font-weight: bold;
 }
@@ -82,6 +82,10 @@ main .table{
     margin-top: 20px;
 }
 
+table {
+    border-collapse: collapse;
+}
+
 main .tabella-head {
     background-color: rgb(78,160,255);
     color: white;
@@ -94,4 +98,22 @@ main tbody .celeste{
 /* Ultimo paragrafo */
 main .fine-articolo {
     margin-top: 20px;
+}
+
+/* Inizio regole css per la sezione footer */
+
+footer {
+    margin-top: 30px;
+}
+
+.immagine-footer{
+    margin-top: 10px;
+    position: relative;
+}
+
+.immagine-footer h3 {
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }

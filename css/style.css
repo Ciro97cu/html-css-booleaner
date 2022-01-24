@@ -10,18 +10,17 @@
 header .pattern {
     height: 80px;
     background-image: url("../img/pattern.png");
-    background-size: 23%;
+    background-size: 30%;
     background-repeat: repeat-x;
     background-color: rgb(78,160,255);
     position: relative;
 }
 
-header .pattern h2 {
-    color: white;
-    text-shadow: 4px 4px 4px black;
+header .pattern img{
     position: absolute;
     left: 5px;
-    bottom: 10px;
+    bottom: 5px;
+    width: 200px;
 }
 
 header .titolo {

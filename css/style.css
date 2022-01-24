@@ -5,12 +5,16 @@
     box-sizing: border-box;
 }
 
+.titolo, main{
+    padding-left: 5px;
+}
+
 /* Inizio regole css per la sezione header */
 
 header .pattern {
     height: 80px;
     background-image: url("../img/pattern.png");
-    background-size: 30%;
+    background-size: 320px;
     background-repeat: repeat-x;
     background-color: rgb(78,160,255);
     position: relative;
@@ -47,3 +51,47 @@ header .titolo .sopra {
 
 
 /* Inizio regole css per la sezione main */
+
+
+/* Foto e crediti */
+main .foto-testo {
+    margin-top: 10px;
+}
+
+main .foto-testo p{
+    font-size: 13px;
+}
+
+
+/* Corpo articolo */
+main .corpo-articolo p {
+    margin: 20px 0 20px;
+}
+
+main ul {
+    padding-left: 15px;
+}
+
+main .corpo-articolo span, main .fine-articolo span{
+    background-color: yellow;
+}
+
+
+/* Tabella */
+main .table{
+    margin-top: 20px;
+}
+
+main .tabella-head {
+    background-color: rgb(78,160,255);
+    color: white;
+}
+
+main tbody .celeste{
+    background-color: skyblue;
+}
+
+/* Ultimo paragrafo */
+main .fine-articolo {
+    margin-top: 20px;
+}

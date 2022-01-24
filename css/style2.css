@@ -6,7 +6,8 @@
 }
 
 .titolo, main, footer{
-    padding-left: 5px;
+    width: 80%;
+    margin: auto;
 }
 
 /* Inizio regole css per la sezione header */

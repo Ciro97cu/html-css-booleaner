@@ -1,5 +1,50 @@
+/* Regole css per togliere formattazione di default */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Inizio regole css per la sezione header */
+
+header .pattern {
+    height: 80px;
+    background-image: url("../img/pattern.png");
+    background-size: 23%;
+    background-repeat: repeat-x;
+    background-color: rgb(78,160,255);
+    position: relative;
+}
+
+header .pattern h2 {
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+}
+
+header .titolo {
+    margin-top: 10px;;
+}
+
+header .titolo h1 {
+    font-size: 40px;
+}
+
+header .titolo a {
+    text-decoration: none;
+    color: rgb(78,160,255);
+}
+
+header .titolo .crediti{
+    color: gray;
+    font-weight: bold;
+}
+
+header .titolo .sopra {
+    font-size: 20px;
+}
+
+
+/* Inizio regole css per la sezione main */

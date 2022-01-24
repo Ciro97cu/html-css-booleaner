@@ -5,27 +5,33 @@
     box-sizing: border-box;
 }
 
-.titolo, main, footer{
+header, main, footer{
     width: 80%;
     margin: auto;
 }
 
 /* Inizio regole css per la sezione header */
 
-header .pattern {
+.pattern {
     height: 80px;
     background-image: url("../img/pattern.png");
     background-size: 320px;
     background-repeat: repeat-x;
     background-color: rgb(78,160,255);
+}
+
+.contenitore{
     position: relative;
 }
 
-header .pattern img{
-    position: absolute;
-    left: 5px;
-    bottom: 5px;
+.logo img{
+    width: 100%;
+}
+
+header .logo{
     width: 200px;
+    position: absolute;
+    bottom: 5px;
 }
 
 header .titolo {

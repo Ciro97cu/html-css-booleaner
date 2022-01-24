@@ -95,14 +95,17 @@ table {
 }
 
 .colonna-sinistra {
+    text-align: left;
     width: 20%;
 }
 
 .colonna-centro {
+    text-align: left;
     width: 20%;
 }
 
 .colonna-destra {
+    text-align: left;
     width: 60%;
 }
 
